@@ -82,7 +82,7 @@
         height: 100%;
         margin-right: -250px;
         overflow-y: auto;
-        background: #222;
+        background: #770047;
         -webkit-transition: all 0.4s ease 0s;
         -moz-transition: all 0.4s ease 0s;
         -ms-transition: all 0.4s ease 0s;
@@ -107,7 +107,7 @@
     .sidebar-nav li a {
         display: block;
         text-decoration: none;
-        color: #999;
+        color: #FFF;
     }
 
     .sidebar-nav li a:hover {
@@ -128,7 +128,8 @@
     }
 
     .sidebar-nav > .sidebar-brand a {
-        color: #999;
+        color: #FFF;
+        border-bottom: 1px solid #FFF;
     }
 
     .sidebar-nav > .sidebar-brand a:hover {
