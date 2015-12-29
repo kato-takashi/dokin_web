@@ -29,7 +29,6 @@ function drawSvg(){
   }
   
   var rand = Math.floor( Math.random() * pathArray.length);
-  console.log(pathArray[rand]);
   $(draw_svg_array[rand]).show();
   $(draw_svg_array[rand]).fadeIn("500");
   $(draw_svg_array[rand]).lazylinepainter( 

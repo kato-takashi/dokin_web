@@ -274,6 +274,74 @@
             font-size:200%;
         }
 
+        /* App */
+        .app {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f79191+0,9b38d1+100 */
+            background: #f79191; /* Old browsers */
+            background: -moz-linear-gradient(top,  #f79191 0%, #9b38d1 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #f79191 0%,#9b38d1 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #f79191 0%,#9b38d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79191', endColorstr='#9b38d1',GradientType=0 ); /* IE6-9 */
+
+        }
+
+        .app-container{
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+        }
+        .app-row{
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .col-app{
+            width: 100%;
+            margin: 0px;
+        }
+
+        .app h2{
+            color:#FFF;
+        }
+
+        .app-item {
+            margin-bottom: 0px;
+            width: 100%;
+            
+        }
+
+        .img-app {
+            margin: 0 auto;
+            width: 100%;
+            /*border: solid 1px;*/
+        }
+
+        .img-app:hover {
+            opacity: 0.8;
+        }
+
+        .app-text-box{
+            position: absolute;
+            top:5%;
+            left: 10%;
+        }
+
+        .app-title{
+            color: #FFF;
+            font-size: 30px;
+        }
+
+        .app p{
+            color: #FFF;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .app .small{
+            margin-left:0px; 
+        }
+
 
 
         /* Movie */
@@ -409,6 +477,17 @@
               height:150px;
               /*border-radius:10px;*/
             /*border:solid 1px blue;*/
+            }
+
+            .app-text-box{
+                position: relative;
+                margin: 0
+            }
+
+            .app-text-box .small, .app-title{
+                text-align: left;
+                color: #FFF;
+                font-size: 20px;
             }
 
             .play_store{
