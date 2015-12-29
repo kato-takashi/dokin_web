@@ -459,6 +459,13 @@
 
 
         @media(max-width:768px) {
+            #menu-toggle {
+                z-index: 1;
+                position: fixed;
+                top: 2%;
+                right: 3%;
+            }
+
             .map {
                 height: 75%;
             }
