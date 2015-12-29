@@ -375,6 +375,19 @@
             top:0px;
             z-index: 9999;
         }
+        /*SOUND*/
+        #btn_sound{
+            position: absolute;
+            top: 1%;
+            left: 1%;
+            border:solid 1px #000;
+            font-size: 20px;
+              -webkit-transform: scale3d(0.5, 0.5, 1);
+              -webkit-transform-origin: 0px 0px;
+            padding:0.5%; 
+            z-index: 9999;
+            font-weight: bold;
+        }
 
 
         @media(max-width:768px) {
@@ -385,6 +398,17 @@
             .logo{
                 width: 50%;
                 height: 50%;
+            }
+
+            #draw_svg1, #draw_svg2, #draw_svg3, #draw_svg4, #draw_svg5{
+             position: absolute;
+              left: 0;
+              right: 0;
+              margin:15% auto;
+              width:100%;
+              height:150px;
+              /*border-radius:10px;*/
+            /*border:solid 1px blue;*/
             }
 
             .play_store{

@@ -1,12 +1,33 @@
 $(function(){
+  //効果音
+  var se = $('#sound');
   // 一定期間繰り返し
-  // setInterval(function(){ drawSvg(); },3000);
   setInterval(drawSvg,3000);
+
+  $("#btn_sound").css("cursor","pointer");
+  $("#btn_sound").click(function(){
+    if(soundFlag == true){
+      soundFlag = false;
+      $("#btn_sound").text("SOUND OFF");
+    }else{
+      $("#btn_sound").text("SOUND ON");
+      soundFlag = true;
+    }
+  });
 });
+
+var soundFlag = true;
 
 //senngawo 
 function drawSvg(){
-
+  //効果音
+  var se = $('#sound');
+  se[0].currentTime = 0;
+  //false //sound stop
+  if(soundFlag == true){
+      se[0].play(); 
+  }
+  
   var rand = Math.floor( Math.random() * pathArray.length);
   console.log(pathArray[rand]);
   $(draw_svg_array[rand]).show();
