@@ -367,6 +367,11 @@
             opacity: 0.8;
         }
 
+        .movie iframe{
+            width: 853px;
+            height: 480px;
+        }
+
         /* Call to Action */
 
 
@@ -519,6 +524,11 @@
 
             .callout img{
                 width:100%;
+            }
+
+            .movie iframe{
+                width: 427px;
+                height: 240px;
             }
 
             .use_scene h4{
