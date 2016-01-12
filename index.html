@@ -52,34 +52,34 @@
                                 <ul class="sidebar-nav">
                                     <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
                                     <li class="sidebar-brand">
-                                        <a href="#top"  onclick = $("#menu-close").click(); >Dokin</a>
+                                        <a href="#top"  class="nav_btn" >Dokin</a>
                                     </li>
                                     <li>
-                                        <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                                        <a href="#top" class="nav_btn">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                                        <a href="#about" class="nav_btn" >About</a>
                                     </li>
                                     <li>
-                                        <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+                                        <a href="#services" class="nav_btn" >Services</a>
                                     </li>
                                     <li>
-                                        <a href="#use_scene" onclick = $("#menu-close").click(); >Use Scene</a>
+                                        <a href="#use_scene" class="nav_btn" >Use Scene</a>
                                     </li>
                                     <li>
-                                        <a href="#app" onclick = $("#menu-close").click(); >App</a>
+                                        <a href="#app" class="nav_btn" >App</a>
                                     </li>
                                     <li>
-                                        <a href="#movie" onclick = $("#menu-close").click(); >Movie</a>
+                                        <a href="#movie" class="nav_btn" >Movie</a>
                                     </li>
                                     <li>
-                                        <a href="#agreement" onclick = $("#menu-close").click(); >Agreement</a>
+                                        <a href="#agreement" class="nav_btn">Agreement</a>
                                     </li>
                                     <li>
                                         <a href="pages/license.html"  >License</a>
                                     </li>
                                     <li>
-                                        <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                                        <a href="#contact" class="nav_btn").click(); >Contact</a>
                                     </li>
 
                                 </ul>
@@ -393,7 +393,7 @@
                         <!-- Custom Theme JavaScript -->
                         <script>
                         // Closes the sidebar menu
-                        $("#menu-close").click(function(e) {
+                        $("#menu-close, .nav_btn").click(function(e) {
                             e.preventDefault();
                             $("#sidebar-wrapper").toggleClass("active");
                         });
@@ -419,6 +419,7 @@
                                     }
                                 }
                             });
+
                         });
                         </script>
                         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3"></script>
