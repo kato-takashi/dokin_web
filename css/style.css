@@ -398,18 +398,19 @@
 
         .md-agreement h2{
             font-weight:bold;
-            font-size:120%;
+            color:#555555;
             border-bottom: 1px solid #000000;
 
         }
 
         .md-agreement h4{
             font-weight:bold;
-            font-size:100%;
+            color:#555555;
         }
 
         .md-agreement p, .md-agreement ol{
-            font-size:10%;
+            color:#555555;
+            font-size: 10px;
         }
 
         .list-inline-ic{
